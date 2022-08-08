@@ -1,0 +1,58 @@
+<!-- 
+  ART
+  Robocon 2022
+  
+  This file is rendered by the main program for streaming the webcam feed over the network.
+ -->
+
+<html>
+  <head>
+    <title>ART</title>
+    {{ turbo() }}
+  </head>
+  <style>
+     .button1
+ {
+    color: red;
+ }
+ .button2
+ {
+  color: white;
+     background-color:green;
+ }
+ .button3
+ {
+  color: white;
+     background-color:blue;
+ }
+  </style>
+  <body>
+    <h1>Bot R1</h1>
+        <table>
+          <th>
+            <img src="{{ url_for('video_feed') }}">
+            
+        </th>
+        <th>
+            {% include "load.html" %}
+            {% block content %}{% endblock %}
+        </th>
+        <th>
+          <form action="{{ url_for('reset') }}">
+            <input type="submit" value="RESET" class="button1"/>
+        </form>
+          <form action="{{ url_for('incmanv') }}">
+            <input type="submit" value="INC MANV" class="button3"/>
+        </form>
+        </th>
+        <th>
+          <form action="{{ url_for('info') }}">
+          <input type="submit" value="REFRESH" class="button2"/>
+      </form>
+      <form action="{{ url_for('decmanv') }}">
+        <input type="submit" value="DEC MANV" class="button3"/>
+    </form>
+      </th>
+    </table>
+  </body>
+</html>
