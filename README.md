@@ -44,10 +44,6 @@
 - This file loads the weights and cfg files which are used to detect the object on the sent frame.
 - This file returns the position of the object to tracking.py file.
 
-
-## weights and cfg file <br>
-https://fcrit-my.sharepoint.com/:f:/g/personal/mali_suyash_fcrit_onmicrosoft_com/ElwHyyOOGAhCmr2DGKgxlu0B2vBom45fYBWpdbfyLnEDMA?e=NOpXN0
-
 ---
 
 ## serial comm between arduino and linux
