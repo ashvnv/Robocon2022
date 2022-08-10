@@ -1,3 +1,7 @@
+## Authors:
+- Bryan Ronad [GitHub](https://github.com/BryanRonad)
+- Ashwin Vallaban [GitHub](https://github.com/ashvnv)
+
 ## This repository contains bot automation files
 ![](https://img.shields.io/badge/Robot-R1-yellow) ![](https://img.shields.io/badge/Status-STABLE-green)
 <br>
@@ -8,7 +12,7 @@
 - Ball on Head shooting
 
 ## BOH algo flow
-![diagram](https://bitbucket.org/Suyash__Mali/robocon-2022/raw/7c44332376aec363f056a9358343dcac995da5ec/assets/BOH_aim_flow.png)
+![diagram](https://raw.githubusercontent.com/ashvnv/Robocon2022/main/assets/BOH_aim_flow.png)
 
 #### BALL HIT FLOW
 - Hit Ball 1 -> Ball 4 -> Ball 3 -> Ball 2
@@ -24,7 +28,7 @@
 - This file also displays the processing time required to detect the object in the frame.
 
 ## Mask created in tracking.py for tracking the ball
-![diagram](https://bitbucket.org/Suyash__Mali/robocon-2022/raw/dcddfcf05da13bb5acf083278527d7979836640e/assets/ROI_masks.png)
+![diagram](https://raw.githubusercontent.com/ashvnv/Robocon2022/main/assets/ROI_masks.png)
 
 
 ## debug_run.py
