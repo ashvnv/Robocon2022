@@ -1,6 +1,7 @@
 ## Authors:
 - Bryan Ronad [GitHub](https://github.com/BryanRonad)
 - Ashwin Vallaban [GitHub](https://github.com/ashvnv)
+---
 
 ## This repository contains bot automation files
 ![](https://img.shields.io/badge/Robot-R1-yellow) ![](https://img.shields.io/badge/Status-STABLE-green)
